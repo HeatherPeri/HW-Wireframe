@@ -4,54 +4,90 @@ body{
     background-color: #777;
     font-size: 18px;
     width: 960px;
+    text-align: center
+    margin: auto;
 }
 
-.regular{
+#header{
     background-color: #ebebeb;
-    width: 495px;
-    position: reletive;
-    height: 300%;
+    float: none;
     text-align: center;
+    padding: 20px 10px 20px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
-.h1, .p{
-    width: 495px;
+#nav{
     background-color: #ebebeb;
-    color: #777;
+    float: none;
     text-align: center;
-}
-
-.Article{
-    color: #ebebeb;
-    background-color: #777;
-    text-align: center;
-    width: 450px;
-    height: 90%;
-    padding: 20px, 5px, 25px, 15px;
+    padding: 20px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 #section{
-    float: left;
+    background-color: #ebebeb;
     width: 495px;
-    height: 100%;
-    padding: 25px, 10px, 30px, 20px;
+    float: left;
+    padding: 
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+#h1{
+    background-color: #ebebeb;
+    float: left;
+    display: block;
+    color: #777;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#p{
+    background-color: #ebebeb;
+    float: left;
+    color: #777;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 #aside{
-    float: right;
-    height: 400%
     background-color: #ebebeb;
-    width: 495px;
-    position: reletive;
+    width: 400px;
+    float: right;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
-.grid-container {
+#article{
+    color: #ebebeb;
+    background-color: #777;
+    width: 450px;
+    padding: 20px, 5px, 25px, 15px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+#footer{
+    background-color: #ebebeb;
+    float: none;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+/* .grid-container {
     display: block;
     grid-template-columns: auto auto auto auto;
-  }
+  } */
 
-.clearfix::after {
+    .clearfix::after {
     content: "body";
     display: block;
     clear: both;
-}
+    }
